@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  qianjianghegu
+//  vetoryNmas
 //
 //  Created by luosi on 2026/6/19.
 //
