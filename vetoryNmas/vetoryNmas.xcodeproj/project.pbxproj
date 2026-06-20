@@ -6,145 +6,119 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		DEC09D6C922E3B0585C7A993 /* Pods_qianjianghegu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1167D7E1A8FF3EF645FB9533 /* Pods_qianjianghegu.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		1167D7E1A8FF3EF645FB9533 /* Pods_qianjianghegu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qianjianghegu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		385D854F2FE519A800178D1F /* qianjianghegu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qianjianghegu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48A355881BC72EE97E382539 /* Pods-qianjianghegu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qianjianghegu.release.xcconfig"; path = "Target Support Files/Pods-qianjianghegu/Pods-qianjianghegu.release.xcconfig"; sourceTree = "<group>"; };
-		D0B95108323E268892B885B1 /* Pods-qianjianghegu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qianjianghegu.debug.xcconfig"; path = "Target Support Files/Pods-qianjianghegu/Pods-qianjianghegu.debug.xcconfig"; sourceTree = "<group>"; };
+		385D89552FE67BE700178D1F /* vetoryNmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vetoryNmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		385D85612FE519AA00178D1F /* Exceptions for "qianjianghegu" folder in "qianjianghegu" target */ = {
+		385D89672FE67BE900178D1F /* Exceptions for "vetoryNmas" folder in "vetoryNmas" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 385D854E2FE519A800178D1F /* qianjianghegu */;
+			target = 385D89542FE67BE700178D1F /* vetoryNmas */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		385D85512FE519A800178D1F /* qianjianghegu */ = {
+		385D89572FE67BE700178D1F /* vetoryNmas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				385D85612FE519AA00178D1F /* Exceptions for "qianjianghegu" folder in "qianjianghegu" target */,
+				385D89672FE67BE900178D1F /* Exceptions for "vetoryNmas" folder in "vetoryNmas" target */,
 			);
-			path = qianjianghegu;
+			path = vetoryNmas;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		385D854C2FE519A800178D1F /* Frameworks */ = {
+		385D89522FE67BE700178D1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEC09D6C922E3B0585C7A993 /* Pods_qianjianghegu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		385D85462FE519A800178D1F = {
+		385D894C2FE67BE700178D1F = {
 			isa = PBXGroup;
 			children = (
-				385D85512FE519A800178D1F /* qianjianghegu */,
-				385D85502FE519A800178D1F /* Products */,
-				D5AD2B3EC852F68D29DEC0B4 /* Pods */,
-				C1E6FB28E885DEBCBE336FAC /* Frameworks */,
+				385D89572FE67BE700178D1F /* vetoryNmas */,
+				385D89562FE67BE700178D1F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		385D85502FE519A800178D1F /* Products */ = {
+		385D89562FE67BE700178D1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				385D854F2FE519A800178D1F /* qianjianghegu.app */,
+				385D89552FE67BE700178D1F /* vetoryNmas.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C1E6FB28E885DEBCBE336FAC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1167D7E1A8FF3EF645FB9533 /* Pods_qianjianghegu.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D5AD2B3EC852F68D29DEC0B4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D0B95108323E268892B885B1 /* Pods-qianjianghegu.debug.xcconfig */,
-				48A355881BC72EE97E382539 /* Pods-qianjianghegu.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		385D854E2FE519A800178D1F /* qianjianghegu */ = {
+		385D89542FE67BE700178D1F /* vetoryNmas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 385D85622FE519AA00178D1F /* Build configuration list for PBXNativeTarget "qianjianghegu" */;
+			buildConfigurationList = 385D89682FE67BE900178D1F /* Build configuration list for PBXNativeTarget "vetoryNmas" */;
 			buildPhases = (
-				15A40E79A7994E548EB13650 /* [CP] Check Pods Manifest.lock */,
-				385D854B2FE519A800178D1F /* Sources */,
-				385D854C2FE519A800178D1F /* Frameworks */,
-				385D854D2FE519A800178D1F /* Resources */,
+				385D89512FE67BE700178D1F /* Sources */,
+				385D89522FE67BE700178D1F /* Frameworks */,
+				385D89532FE67BE700178D1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				385D85512FE519A800178D1F /* qianjianghegu */,
+				385D89572FE67BE700178D1F /* vetoryNmas */,
 			);
-			name = qianjianghegu;
-			productName = qianjianghegu;
-			productReference = 385D854F2FE519A800178D1F /* qianjianghegu.app */;
+			name = vetoryNmas;
+			packageProductDependencies = (
+			);
+			productName = vetoryNmas;
+			productReference = 385D89552FE67BE700178D1F /* vetoryNmas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		385D85472FE519A800178D1F /* Project object */ = {
+		385D894D2FE67BE700178D1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					385D854E2FE519A800178D1F = {
+					385D89542FE67BE700178D1F = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = 385D854A2FE519A800178D1F /* Build configuration list for PBXProject "qianjianghegu" */;
+			buildConfigurationList = 385D89502FE67BE700178D1F /* Build configuration list for PBXProject "vetoryNmas" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 385D85462FE519A800178D1F;
+			mainGroup = 385D894C2FE67BE700178D1F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 385D85502FE519A800178D1F /* Products */;
+			productRefGroup = 385D89562FE67BE700178D1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				385D854E2FE519A800178D1F /* qianjianghegu */,
+				385D89542FE67BE700178D1F /* vetoryNmas */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		385D854D2FE519A800178D1F /* Resources */ = {
+		385D89532FE67BE700178D1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,33 +127,8 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		15A40E79A7994E548EB13650 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-qianjianghegu-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		385D854B2FE519A800178D1F /* Sources */ = {
+		385D89512FE67BE700178D1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,81 +138,69 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		385D85632FE519AA00178D1F /* Debug */ = {
+		385D89692FE67BE900178D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0B95108323E268892B885B1 /* Pods-qianjianghegu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = qianjianghegu/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Vault Finance";
+				INFOPLIST_FILE = vetoryNmas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qianjianghegu;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetoryNmas.vetoryNmas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		385D85642FE519AA00178D1F /* Release */ = {
+		385D896A2FE67BE900178D1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A355881BC72EE97E382539 /* Pods-qianjianghegu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = qianjianghegu/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Vault Finance";
+				INFOPLIST_FILE = vetoryNmas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qianjianghegu;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetoryNmas.vetoryNmas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		385D85652FE519AA00178D1F /* Debug */ = {
+		385D896B2FE67BE900178D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		385D85662FE519AA00178D1F /* Release */ = {
+		385D896C2FE67BE900178D1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		385D854A2FE519A800178D1F /* Build configuration list for PBXProject "qianjianghegu" */ = {
+		385D89502FE67BE700178D1F /* Build configuration list for PBXProject "vetoryNmas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				385D85652FE519AA00178D1F /* Debug */,
-				385D85662FE519AA00178D1F /* Release */,
+				385D896B2FE67BE900178D1F /* Debug */,
+				385D896C2FE67BE900178D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		385D85622FE519AA00178D1F /* Build configuration list for PBXNativeTarget "qianjianghegu" */ = {
+		385D89682FE67BE900178D1F /* Build configuration list for PBXNativeTarget "vetoryNmas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				385D85632FE519AA00178D1F /* Debug */,
-				385D85642FE519AA00178D1F /* Release */,
+				385D89692FE67BE900178D1F /* Debug */,
+				385D896A2FE67BE900178D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 385D85472FE519A800178D1F /* Project object */;
+	rootObject = 385D894D2FE67BE700178D1F /* Project object */;
 }
