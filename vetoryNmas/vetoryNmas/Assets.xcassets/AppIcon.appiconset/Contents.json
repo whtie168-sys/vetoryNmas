@@ -1,7 +1,32 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "filename" : "1781897416873.png",
+=======
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

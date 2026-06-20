@@ -6,25 +6,52 @@
 	objectVersion = 77;
 	objects = {
 
+<<<<<<< HEAD
 /* Begin PBXFileReference section */
 		385D89552FE67BE700178D1F /* vetoryNmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vetoryNmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		385D89672FE67BE900178D1F /* Exceptions for "vetoryNmas" folder in "vetoryNmas" target */ = {
+=======
+/* Begin PBXBuildFile section */
+		8EE088154BAD11BD9C7216CC /* Pods_vetoryNmas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FF2FAECB40946EC27237EF /* Pods_vetoryNmas.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		385D85802FE529A300178D1F /* vetoryNmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vetoryNmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B4B6620FAD6FA8A7A88D75 /* Pods-vetoryNmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vetoryNmas.release.xcconfig"; path = "Target Support Files/Pods-vetoryNmas/Pods-vetoryNmas.release.xcconfig"; sourceTree = "<group>"; };
+		48FF2FAECB40946EC27237EF /* Pods_vetoryNmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vetoryNmas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422F86F9FF2229D6CFF5E97 /* Pods-vetoryNmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vetoryNmas.debug.xcconfig"; path = "Target Support Files/Pods-vetoryNmas/Pods-vetoryNmas.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		385D85922FE529A500178D1F /* Exceptions for "vetoryNmas" folder in "vetoryNmas" target */ = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
+<<<<<<< HEAD
 			target = 385D89542FE67BE700178D1F /* vetoryNmas */;
+=======
+			target = 385D857F2FE529A300178D1F /* vetoryNmas */;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+<<<<<<< HEAD
 		385D89572FE67BE700178D1F /* vetoryNmas */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				385D89672FE67BE900178D1F /* Exceptions for "vetoryNmas" folder in "vetoryNmas" target */,
+=======
+		385D85822FE529A300178D1F /* vetoryNmas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				385D85922FE529A500178D1F /* Exceptions for "vetoryNmas" folder in "vetoryNmas" target */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 			path = vetoryNmas;
 			sourceTree = "<group>";
@@ -32,16 +59,25 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+<<<<<<< HEAD
 		385D89522FE67BE700178D1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+=======
+		385D857D2FE529A300178D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE088154BAD11BD9C7216CC /* Pods_vetoryNmas.framework in Frameworks */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		385D894C2FE67BE700178D1F = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +90,37 @@
 			isa = PBXGroup;
 			children = (
 				385D89552FE67BE700178D1F /* vetoryNmas.app */,
+=======
+		078BDEE2FDC7185F7D0A9A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9422F86F9FF2229D6CFF5E97 /* Pods-vetoryNmas.debug.xcconfig */,
+				39B4B6620FAD6FA8A7A88D75 /* Pods-vetoryNmas.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		385D85772FE529A300178D1F = {
+			isa = PBXGroup;
+			children = (
+				385D85822FE529A300178D1F /* vetoryNmas */,
+				385D85812FE529A300178D1F /* Products */,
+				078BDEE2FDC7185F7D0A9A1D /* Pods */,
+				A95E2C288EB16E94D1D3489A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		385D85812FE529A300178D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385D85802FE529A300178D1F /* vetoryNmas.app */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,12 +131,34 @@
 				385D89512FE67BE700178D1F /* Sources */,
 				385D89522FE67BE700178D1F /* Frameworks */,
 				385D89532FE67BE700178D1F /* Resources */,
+=======
+		A95E2C288EB16E94D1D3489A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48FF2FAECB40946EC27237EF /* Pods_vetoryNmas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		385D857F2FE529A300178D1F /* vetoryNmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385D85932FE529A500178D1F /* Build configuration list for PBXNativeTarget "vetoryNmas" */;
+			buildPhases = (
+				C684BC3ABC548D7217213500 /* [CP] Check Pods Manifest.lock */,
+				385D857C2FE529A300178D1F /* Sources */,
+				385D857D2FE529A300178D1F /* Frameworks */,
+				385D857E2FE529A300178D1F /* Resources */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+<<<<<<< HEAD
 				385D89572FE67BE700178D1F /* vetoryNmas */,
 			);
 			name = vetoryNmas;
@@ -81,30 +166,50 @@
 			);
 			productName = vetoryNmas;
 			productReference = 385D89552FE67BE700178D1F /* vetoryNmas.app */;
+=======
+				385D85822FE529A300178D1F /* vetoryNmas */,
+			);
+			name = vetoryNmas;
+			productName = vetoryNmas;
+			productReference = 385D85802FE529A300178D1F /* vetoryNmas.app */;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		385D894D2FE67BE700178D1F /* Project object */ = {
+=======
+		385D85782FE529A300178D1F /* Project object */ = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+<<<<<<< HEAD
 					385D89542FE67BE700178D1F = {
+=======
+					385D857F2FE529A300178D1F = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
+<<<<<<< HEAD
 			buildConfigurationList = 385D89502FE67BE700178D1F /* Build configuration list for PBXProject "vetoryNmas" */;
+=======
+			buildConfigurationList = 385D857B2FE529A300178D1F /* Build configuration list for PBXProject "vetoryNmas" */;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = 385D894C2FE67BE700178D1F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
@@ -113,12 +218,26 @@
 			projectRoot = "";
 			targets = (
 				385D89542FE67BE700178D1F /* vetoryNmas */,
+=======
+			mainGroup = 385D85772FE529A300178D1F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 385D85812FE529A300178D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				385D857F2FE529A300178D1F /* vetoryNmas */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		385D89532FE67BE700178D1F /* Resources */ = {
+=======
+		385D857E2FE529A300178D1F /* Resources */ = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,8 +246,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+<<<<<<< HEAD
 /* Begin PBXSourcesBuildPhase section */
 		385D89512FE67BE700178D1F /* Sources */ = {
+=======
+/* Begin PBXShellScriptBuildPhase section */
+		C684BC3ABC548D7217213500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vetoryNmas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		385D857C2FE529A300178D1F /* Sources */ = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,8 +287,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		385D89692FE67BE900178D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+=======
+		385D85942FE529A500178D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9422F86F9FF2229D6CFF5E97 /* Pods-vetoryNmas.debug.xcconfig */;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +302,49 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = vetoryNmas/Info.plist;
+<<<<<<< HEAD
+=======
+				INFOPLIST_KEY_CFBundleDisplayName = vetoryNmas;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.vetoryNmas.vetoryNmas;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetoryNmas;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		385D896A2FE67BE900178D1F /* Release */ = {
 			isa = XCBuildConfiguration;
+=======
+		385D85952FE529A500178D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B4B6620FAD6FA8A7A88D75 /* Pods-vetoryNmas.release.xcconfig */;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,29 +352,46 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = vetoryNmas/Info.plist;
+<<<<<<< HEAD
+=======
+				INFOPLIST_KEY_CFBundleDisplayName = vetoryNmas;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.vetoryNmas.vetoryNmas;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.vetoryNmas;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		385D896B2FE67BE900178D1F /* Debug */ = {
+=======
+		385D85962FE529A500178D1F /* Debug */ = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +454,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		385D896C2FE67BE900178D1F /* Release */ = {
+=======
+		385D85972FE529A500178D1F /* Release */ = {
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,25 +517,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		385D89502FE67BE700178D1F /* Build configuration list for PBXProject "vetoryNmas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				385D896B2FE67BE900178D1F /* Debug */,
 				385D896C2FE67BE900178D1F /* Release */,
+=======
+		385D857B2FE529A300178D1F /* Build configuration list for PBXProject "vetoryNmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385D85962FE529A500178D1F /* Debug */,
+				385D85972FE529A500178D1F /* Release */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		385D89682FE67BE900178D1F /* Build configuration list for PBXNativeTarget "vetoryNmas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				385D89692FE67BE900178D1F /* Debug */,
 				385D896A2FE67BE900178D1F /* Release */,
+=======
+		385D85932FE529A500178D1F /* Build configuration list for PBXNativeTarget "vetoryNmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				385D85942FE529A500178D1F /* Debug */,
+				385D85952FE529A500178D1F /* Release */,
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = 385D894D2FE67BE700178D1F /* Project object */;
+=======
+	rootObject = 385D85782FE529A300178D1F /* Project object */;
+>>>>>>> be5563c17ba560c9dc28b72080c2373a52fab740
 }
